@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0C6EA0F8DE3A29503477AC28 /* Pods_TugasAkhir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48097EACC015A5796ED88F8 /* Pods_TugasAkhir.framework */; };
+		6A0CF5F11FC914B600030C51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A0CF5F01FC914B600030C51 /* GoogleService-Info.plist */; };
+		6A0CF5F31FC91E7F00030C51 /* AddProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CF5F21FC91E7F00030C51 /* AddProfileViewController.swift */; };
 		6A49D5771FB6996E00BAF59E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A49D5761FB6996E00BAF59E /* AppDelegate.swift */; };
 		6A49D5791FB6996E00BAF59E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A49D5781FB6996E00BAF59E /* ViewController.swift */; };
 		6A49D57C1FB6996F00BAF59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A49D57A1FB6996F00BAF59E /* Main.storyboard */; };
 		6A49D57F1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A49D57D1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld */; };
 		6A49D5811FB6996F00BAF59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A49D5801FB6996F00BAF59E /* Assets.xcassets */; };
 		6A49D5841FB6996F00BAF59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A49D5821FB6996F00BAF59E /* LaunchScreen.storyboard */; };
+		6A53FC841FC901BE00B0E675 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53FC831FC901BE00B0E675 /* model.swift */; };
+		6A53FC861FC902F400B0E675 /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53FC851FC902F400B0E675 /* ChannelListViewController.swift */; };
+		6A53FC881FC9063300B0E675 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53FC871FC9063300B0E675 /* ProfileViewController.swift */; };
+		6A53FC8A1FC9068B00B0E675 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53FC891FC9068B00B0E675 /* LoginViewController.swift */; };
 		6A7BEBAC1FBFCBC500EC2CE6 /* LoginSignUp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BEBAB1FBFCBC500EC2CE6 /* LoginSignUp.jpg */; };
 		6A7BEBAE1FBFD26300EC2CE6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BEBAD1FBFD26300EC2CE6 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5351488568ACAA669DA5DFD0 /* Pods-TugasAkhir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TugasAkhir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TugasAkhir/Pods-TugasAkhir.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0CF5F01FC914B600030C51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A0CF5F21FC91E7F00030C51 /* AddProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProfileViewController.swift; sourceTree = "<group>"; };
 		6A49D5731FB6996E00BAF59E /* TugasAkhir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TugasAkhir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A49D5761FB6996E00BAF59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A49D5781FB6996E00BAF59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +36,10 @@
 		6A49D5801FB6996F00BAF59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A49D5831FB6996F00BAF59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A49D5851FB6996F00BAF59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A53FC831FC901BE00B0E675 /* model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		6A53FC851FC902F400B0E675 /* ChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
+		6A53FC871FC9063300B0E675 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6A53FC891FC9068B00B0E675 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6A7BEBAB1FBFCBC500EC2CE6 /* LoginSignUp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginSignUp.jpg; sourceTree = "<group>"; };
 		6A7BEBAD1FBFD26300EC2CE6 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		AC67AEEF367E7C8225E230A8 /* Pods-TugasAkhir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TugasAkhir.release.xcconfig"; path = "Pods/Target Support Files/Pods-TugasAkhir/Pods-TugasAkhir.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,10 +90,16 @@
 				6A49D5761FB6996E00BAF59E /* AppDelegate.swift */,
 				6A49D5781FB6996E00BAF59E /* ViewController.swift */,
 				6A49D57A1FB6996F00BAF59E /* Main.storyboard */,
+				6A0CF5F21FC91E7F00030C51 /* AddProfileViewController.swift */,
+				6A53FC891FC9068B00B0E675 /* LoginViewController.swift */,
+				6A53FC871FC9063300B0E675 /* ProfileViewController.swift */,
+				6A53FC851FC902F400B0E675 /* ChannelListViewController.swift */,
+				6A53FC831FC901BE00B0E675 /* model.swift */,
 				6A7BEBAD1FBFD26300EC2CE6 /* RoundButton.swift */,
 				6A49D5801FB6996F00BAF59E /* Assets.xcassets */,
 				6A49D5821FB6996F00BAF59E /* LaunchScreen.storyboard */,
 				6A49D5851FB6996F00BAF59E /* Info.plist */,
+				6A0CF5F01FC914B600030C51 /* GoogleService-Info.plist */,
 				6A49D57D1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld */,
 				6A7BEBAB1FBFCBC500EC2CE6 /* LoginSignUp.jpg */,
 			);
@@ -161,6 +179,7 @@
 			files = (
 				6A49D5841FB6996F00BAF59E /* LaunchScreen.storyboard in Resources */,
 				6A7BEBAC1FBFCBC500EC2CE6 /* LoginSignUp.jpg in Resources */,
+				6A0CF5F11FC914B600030C51 /* GoogleService-Info.plist in Resources */,
 				6A49D5811FB6996F00BAF59E /* Assets.xcassets in Resources */,
 				6A49D57C1FB6996F00BAF59E /* Main.storyboard in Resources */,
 			);
@@ -221,8 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A53FC861FC902F400B0E675 /* ChannelListViewController.swift in Sources */,
+				6A53FC841FC901BE00B0E675 /* model.swift in Sources */,
 				6A7BEBAE1FBFD26300EC2CE6 /* RoundButton.swift in Sources */,
 				6A49D5791FB6996E00BAF59E /* ViewController.swift in Sources */,
+				6A0CF5F31FC91E7F00030C51 /* AddProfileViewController.swift in Sources */,
+				6A53FC8A1FC9068B00B0E675 /* LoginViewController.swift in Sources */,
+				6A53FC881FC9063300B0E675 /* ProfileViewController.swift in Sources */,
 				6A49D57F1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld in Sources */,
 				6A49D5771FB6996E00BAF59E /* AppDelegate.swift in Sources */,
 			);
