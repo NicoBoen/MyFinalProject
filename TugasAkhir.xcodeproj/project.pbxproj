@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6EA0F8DE3A29503477AC28 /* Pods_TugasAkhir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48097EACC015A5796ED88F8 /* Pods_TugasAkhir.framework */; };
+		6A49D5771FB6996E00BAF59E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A49D5761FB6996E00BAF59E /* AppDelegate.swift */; };
+		6A49D5791FB6996E00BAF59E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A49D5781FB6996E00BAF59E /* ViewController.swift */; };
+		6A49D57C1FB6996F00BAF59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A49D57A1FB6996F00BAF59E /* Main.storyboard */; };
+		6A49D57F1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A49D57D1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld */; };
+		6A49D5811FB6996F00BAF59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A49D5801FB6996F00BAF59E /* Assets.xcassets */; };
+		6A49D5841FB6996F00BAF59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A49D5821FB6996F00BAF59E /* LaunchScreen.storyboard */; };
+		6A7BEBAC1FBFCBC500EC2CE6 /* LoginSignUp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A7BEBAB1FBFCBC500EC2CE6 /* LoginSignUp.jpg */; };
+		6A7BEBAE1FBFD26300EC2CE6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BEBAD1FBFD26300EC2CE6 /* RoundButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5351488568ACAA669DA5DFD0 /* Pods-TugasAkhir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TugasAkhir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TugasAkhir/Pods-TugasAkhir.debug.xcconfig"; sourceTree = "<group>"; };
+		6A49D5731FB6996E00BAF59E /* TugasAkhir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TugasAkhir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A49D5761FB6996E00BAF59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A49D5781FB6996E00BAF59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A49D57B1FB6996F00BAF59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A49D57E1FB6996F00BAF59E /* TugasAkhir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TugasAkhir.xcdatamodel; sourceTree = "<group>"; };
+		6A49D5801FB6996F00BAF59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A49D5831FB6996F00BAF59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A49D5851FB6996F00BAF59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7BEBAB1FBFCBC500EC2CE6 /* LoginSignUp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginSignUp.jpg; sourceTree = "<group>"; };
+		6A7BEBAD1FBFD26300EC2CE6 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		AC67AEEF367E7C8225E230A8 /* Pods-TugasAkhir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TugasAkhir.release.xcconfig"; path = "Pods/Target Support Files/Pods-TugasAkhir/Pods-TugasAkhir.release.xcconfig"; sourceTree = "<group>"; };
+		D48097EACC015A5796ED88F8 /* Pods_TugasAkhir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TugasAkhir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A49D5701FB6996D00BAF59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6EA0F8DE3A29503477AC28 /* Pods_TugasAkhir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123709BF4AA4BC2C8A88267C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D48097EACC015A5796ED88F8 /* Pods_TugasAkhir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A49D56A1FB6996D00BAF59E = {
+			isa = PBXGroup;
+			children = (
+				6A49D5751FB6996E00BAF59E /* TugasAkhir */,
+				6A49D5741FB6996E00BAF59E /* Products */,
+				E97778F13648019076C0CE8E /* Pods */,
+				123709BF4AA4BC2C8A88267C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A49D5741FB6996E00BAF59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A49D5731FB6996E00BAF59E /* TugasAkhir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A49D5751FB6996E00BAF59E /* TugasAkhir */ = {
+			isa = PBXGroup;
+			children = (
+				6A49D5761FB6996E00BAF59E /* AppDelegate.swift */,
+				6A49D5781FB6996E00BAF59E /* ViewController.swift */,
+				6A49D57A1FB6996F00BAF59E /* Main.storyboard */,
+				6A7BEBAD1FBFD26300EC2CE6 /* RoundButton.swift */,
+				6A49D5801FB6996F00BAF59E /* Assets.xcassets */,
+				6A49D5821FB6996F00BAF59E /* LaunchScreen.storyboard */,
+				6A49D5851FB6996F00BAF59E /* Info.plist */,
+				6A49D57D1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld */,
+				6A7BEBAB1FBFCBC500EC2CE6 /* LoginSignUp.jpg */,
+			);
+			path = TugasAkhir;
+			sourceTree = "<group>";
+		};
+		E97778F13648019076C0CE8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5351488568ACAA669DA5DFD0 /* Pods-TugasAkhir.debug.xcconfig */,
+				AC67AEEF367E7C8225E230A8 /* Pods-TugasAkhir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A49D5721FB6996D00BAF59E /* TugasAkhir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A49D5881FB6996F00BAF59E /* Build configuration list for PBXNativeTarget "TugasAkhir" */;
+			buildPhases = (
+				24044D0B836BF065D8E1E527 /* [CP] Check Pods Manifest.lock */,
+				6A49D56F1FB6996D00BAF59E /* Sources */,
+				6A49D5701FB6996D00BAF59E /* Frameworks */,
+				6A49D5711FB6996D00BAF59E /* Resources */,
+				EDB4404C91DCC239180FB73C /* [CP] Embed Pods Frameworks */,
+				96F20107CC0077CC120F3FE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TugasAkhir;
+			productName = TugasAkhir;
+			productReference = 6A49D5731FB6996E00BAF59E /* TugasAkhir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A49D56B1FB6996D00BAF59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iosdev;
+				TargetAttributes = {
+					6A49D5721FB6996D00BAF59E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6A49D56E1FB6996D00BAF59E /* Build configuration list for PBXProject "TugasAkhir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A49D56A1FB6996D00BAF59E;
+			productRefGroup = 6A49D5741FB6996E00BAF59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A49D5721FB6996D00BAF59E /* TugasAkhir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A49D5711FB6996D00BAF59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A49D5841FB6996F00BAF59E /* LaunchScreen.storyboard in Resources */,
+				6A7BEBAC1FBFCBC500EC2CE6 /* LoginSignUp.jpg in Resources */,
+				6A49D5811FB6996F00BAF59E /* Assets.xcassets in Resources */,
+				6A49D57C1FB6996F00BAF59E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24044D0B836BF065D8E1E527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96F20107CC0077CC120F3FE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TugasAkhir/Pods-TugasAkhir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB4404C91DCC239180FB73C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TugasAkhir/Pods-TugasAkhir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A49D56F1FB6996D00BAF59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7BEBAE1FBFD26300EC2CE6 /* RoundButton.swift in Sources */,
+				6A49D5791FB6996E00BAF59E /* ViewController.swift in Sources */,
+				6A49D57F1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld in Sources */,
+				6A49D5771FB6996E00BAF59E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A49D57A1FB6996F00BAF59E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A49D57B1FB6996F00BAF59E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A49D5821FB6996F00BAF59E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A49D5831FB6996F00BAF59E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A49D5861FB6996F00BAF59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A49D5871FB6996F00BAF59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A49D5891FB6996F00BAF59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5351488568ACAA669DA5DFD0 /* Pods-TugasAkhir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TugasAkhir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS2.TugasAkhir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A49D58A1FB6996F00BAF59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC67AEEF367E7C8225E230A8 /* Pods-TugasAkhir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TugasAkhir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS2.TugasAkhir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A49D56E1FB6996D00BAF59E /* Build configuration list for PBXProject "TugasAkhir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A49D5861FB6996F00BAF59E /* Debug */,
+				6A49D5871FB6996F00BAF59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A49D5881FB6996F00BAF59E /* Build configuration list for PBXNativeTarget "TugasAkhir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A49D5891FB6996F00BAF59E /* Debug */,
+				6A49D58A1FB6996F00BAF59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A49D57D1FB6996F00BAF59E /* TugasAkhir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A49D57E1FB6996F00BAF59E /* TugasAkhir.xcdatamodel */,
+			);
+			currentVersion = 6A49D57E1FB6996F00BAF59E /* TugasAkhir.xcdatamodel */;
+			path = TugasAkhir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6A49D56B1FB6996D00BAF59E /* Project object */;
+}

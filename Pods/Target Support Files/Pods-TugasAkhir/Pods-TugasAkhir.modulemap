@@ -1,0 +1,6 @@
+framework module Pods_TugasAkhir {
+  umbrella header "Pods-TugasAkhir-umbrella.h"
+
+  export *
+  module * { export * }
+}
